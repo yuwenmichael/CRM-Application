@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@CrossOrigin("${crm.app.frontend.host}")
+@CrossOrigin("*")
 public class AuthController
 {
     @Autowired

@@ -11,7 +11,7 @@ import candh.crm.security.JwtUtils;
 import javax.validation.Valid;
 
 @RestController
-@CrossOrigin("${crm.app.frontend.host}")
+@CrossOrigin("*")
 public class EmailController
 {
     @Autowired

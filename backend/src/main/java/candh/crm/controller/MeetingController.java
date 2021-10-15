@@ -16,7 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @RestController
-@CrossOrigin("${crm.app.frontend.host}")
+@CrossOrigin("*")
 public class MeetingController
 {
     @Autowired

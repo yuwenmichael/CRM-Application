@@ -17,7 +17,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin("${crm.app.frontend.host}")
+@CrossOrigin("*")
 public class UserController
 {
     @Autowired

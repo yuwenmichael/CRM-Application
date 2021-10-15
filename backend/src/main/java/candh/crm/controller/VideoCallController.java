@@ -16,7 +16,7 @@ import javax.validation.Valid;
  * to avoid expiration when using calls.
  */
 @RestController
-@CrossOrigin("${crm.app.frontend.host}")
+@CrossOrigin("*")
 public class VideoCallController
 {
     @Autowired
